@@ -1,6 +1,6 @@
 ---
-- name: Reload initd
-  command: initctl reload-configuration
+# - name: Reload initd
+#   command: initctl reload-configuration
 
 - name: Restart kafka service
   service:
